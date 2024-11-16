@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Разработчик: Сафронова Юлия." 
+                   HorizontalOptions="Center"
+                   FontSize="20"
+                   FontFamily="Times New Roman"
+                   Margin="0, 5, 0, 0"/>
+            <Label Text="Практическая работа #4. Варинат - 10."
+                   HorizontalOptions="Center"
+                   FontFamily="Times New Roman"
+                   FontSize="17"/>
+            <Label Text="Задание: Выведите на экран следующую информацию:"
+                   FontSize="17"
+                   Margin="0, 5, 0, 0"
+                   FontFamily="Times New Roman"/>
+            <Label Text="1. Москва. 2. Каунас. 3. Киев."
+                   HorizontalOptions="Center"
+                   FontSize="17"
+                   FontFamily="Times New Roman"/>
+            <Label Text="4. Харьков 5. Брест 6. Вильнюс."
+                   HorizontalOptions="Center"
+                   FontSize="17"
+                   FontFamily="Times New Roman"/>
+            <Label Text="7. Рязань. 8. Минск."
+                   HorizontalOptions="Center"
+                   FontSize="17"
+                   FontFamily="Times New Roman"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
